@@ -48,9 +48,17 @@ void useMat() {
 	getchar();//按任意键退出
 }
 
+void testcvtColor() {
+	Mat srcImg = imread("1.jpg"),dstImg;
+	cvtColor(srcImg, dstImg, COLOR_BGR2Lab);
+	imshow("效果图", dstImg);
+	cv::waitKey(0);
+
+}
+
 int main(int, char**) {
 
-	
+	testcvtColor();
 
 	return 0;
 
