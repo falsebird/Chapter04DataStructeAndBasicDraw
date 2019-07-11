@@ -56,10 +56,10 @@ void testcvtColor() {
 
 }
 
-int main(int, char**) {
-
-	testcvtColor();
-
-	return 0;
-
-}
+//int main(int, char**) {
+//
+//	testcvtColor();
+//
+//	return 0;
+//
+//}
